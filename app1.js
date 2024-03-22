@@ -15,4 +15,10 @@ const bb = '변수 ele1 에 들어있는 단어위 갯수는' + aa + '개 입니
 const cc = title + ' ' +aa;
 
 
+//20240323sa
 
+const dd = ele1[0];
+const ee = ele1[9];
+
+const ff = [ele1[0], ele1[9], ele1[10], ele1[19]];
+	
