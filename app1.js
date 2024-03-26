@@ -51,3 +51,18 @@ const ele3 = ['동녘동','서녘서','남녘남','북녘북','봄춘','여름�
 '마당장','클태','넓을광','못지','골짜기곡','바위암','별성','바람풍','바다해','높을고',
 '근원원','눈설','들야','누를황','구름운','얼굴안','빛색','마음심','목수','몸체',
 '머리두','아비부','어미모','형형','아우제','친할친','벗우','가계점','길장','누이자']
+
+
+//20240327we
+
+function ele1_function(){
+	document.getElementById("ele1_ID").innerText = ele1;
+	}
+
+function ele2_function(){
+	document.getElementById("ele2_ID").innerText = ele2;
+	}
+
+function ele3_function(){
+	document.getElementById("ele3_ID").innerText = ele3;
+	}
