@@ -66,3 +66,18 @@ function ele2_function(){
 function ele3_function(){
 	document.getElementById("ele3_ID").innerText = ele3;
 	}
+
+
+//20240328th
+
+let ele1_0 = ele1[0];
+let eleLength = ele1[0].length;
+
+let eleFirstLetter =  ele1_0.charAt(0);
+let eleLastLetter =  ele1_0.charAt(eleLength - 1);
+
+let meaning = '훈독: ' + eleFirstLetter;
+let sound = '음독: ' + eleLastLetter;
+
+let meaningAndSound = meaning +', '+ sound;
+
