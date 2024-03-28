@@ -81,3 +81,27 @@ let sound = '음독: ' + eleLastLetter;
 
 let meaningAndSound = meaning +', '+ sound;
 
+
+
+//20240329fr
+
+
+let i = 0;
+
+let Total_ele1Length = ele1.length;
+let totalLastLetter = [];
+
+while(i <= Total_ele1Length - 1){
+	eleWord = ele1[i];
+	eleWordLength = eleWord.length;
+	eleLastWord = eleWord.charAt(eleLength - 1);
+	totalLastLetter.push(eleLastWord);
+	i++
+};
+
+
+let checkEle1 = totalLastLetter[10];
+
+
+
+
