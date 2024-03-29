@@ -28,3 +28,12 @@ ul{
 border-style: solid;
 color : red;
 }
+
+div{
+  background: blue;
+  color: orange;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 10px;
+}
